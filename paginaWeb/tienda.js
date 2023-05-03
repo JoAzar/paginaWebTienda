@@ -46,5 +46,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var textoJoyeria10 = document.getElementById("textoJoyeria10");
     var valor10 = "Anillo de oro y lapislazuli \n Valor: $179.000";
     textoJoyeria10.textContent = valor10;
+
+    var textoJoyeria11 = document.getElementById("textoJoyeria11");
+    var valor11 = "Anillo de oro y esmeralda \n Valor: $99.000";
+    textoJoyeria11.textContent = valor11
+
+    var textoJoyeria12 = document.getElementById("textoJoyeria12");
+    var valor12 = "Collar estrella de oro y piedras \n Valor: $180.000";
+    textoJoyeria12.textContent = valor12;
 });
 
