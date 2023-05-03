@@ -4,6 +4,8 @@ function buscarEnGoogle() {
     window.location.href = url;
 }
 
+/*EL BLOQUE DEBAJO SE PUEDE REPETIR PARA ARMAR MÁS TARJETAS*/
+
 document.addEventListener("DOMContentLoaded", function() {
     var textoJoyeria1 = document.getElementById("textoJoyeria1");
     var valor1 = "Corazón precioso de Ruby y Plata \n Valor: $19.000";
@@ -40,5 +42,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var textoJoyeria9 = document.getElementById("textoJoyeria9");
     var valor9 = "Sol de oro y cristal \n Valor: $79.000";
     textoJoyeria9.textContent = valor9;
+
+    var textoJoyeria10 = document.getElementById("textoJoyeria10");
+    var valor10 = "Anillo de oro y lapislazuli \n Valor: $179.000";
+    textoJoyeria10.textContent = valor10;
 });
 
