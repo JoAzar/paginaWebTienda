@@ -82,6 +82,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(3px);
+    border-radius: 15px;
 }
 
 .texto {
@@ -214,13 +215,56 @@ footer {
     background-image: url(facebookColor.png);
 }
 
-#copyrightBigBox {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: #e00909;
-    text-shadow: 1px 1px 2px rgb(129, 0, 0);
+#copyright {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #cecece;
+    font-size: 30px;
+    font-weight: 100;
     background-color: rgb(27, 27, 27);
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+#copyright span {
+    margin-left: 5px;
+}
+
+#copyright span::before {
+    content: 'Programador';
+    color: rgb(202, 202, 202);
+    animation: palabra 15s infinite;
+}
+
+#copyright span::after {
+    color: rgb(201, 201, 201);
+    animation: palbra 15s infinite;
+    width: calc(100%+8px);
+    position: absolute;
+    border-left: 2px solid rgb(223, 223, 223);
+    right: -6px;
+    animation: cursor .6s infinite,typing 20s steps(15) infinite;
+}
+
+@keyframes palabra{
+    0%, 20%{
+        content: 'Programador';
+        color: white;
+    }
+    21%, 40%{
+        content: 'Estudiante';
+        color:rgb(238, 183, 43)
+    }
+    41%, 60%{
+        content: '...';
+        color: rgb(45, 231, 169);
+    }
+    61%, 80%{
+        content: '¿Alo?';
+        color:rgb(66, 153, 211)
+    }
+    81%, 100%{
+        content:'Zalazar Joel';
+        color:rgb(96, 64, 238);
+    }
 }
