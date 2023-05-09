@@ -58,7 +58,9 @@ body{
 }
 
 .cuerpoPrincipal {
-    background-image: url(elegante2.png);
+    background-image: url(elegante3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-color: #424242;
     width: 100%;
     min-height: 100vh;
@@ -73,77 +75,50 @@ body{
    width: 100%;
 }
 
-.Joyeria1, .Joyeria2, .Joyeria3, .Joyeria4, .Joyeria5
-, .Joyeria6, .Joyeria7, .Joyeria8, .Joyeria9, .Joyeria10, .Joyeria11, .Joyeria12 {
-    margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    height: 500px;
-    width: 450px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: blur(3px);
-    border-radius: 15px;
-}
-
-.texto {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.cajaChica {
+    background-color: rgba(54, 54, 54, 0.712);
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 40px;
-    color: #dddddd;
-    background-color: rgb(39, 39, 39);
-    border-bottom: 3px solid goldenrod;
+    color: #b8b8b8;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    border: 1px solid rgb(29, 29, 29);
+    font-family: 'Vollkorn', serif;
 }
 
-.Joyeria1 {
-    background-image: url(imagen1.jpg);
-}
-.Joyeria2 {
-    background-image: url(imagen2.jpg);
-}
-.Joyeria3 {
-    background-image: url(imagen3.jpg);
-}
-.Joyeria4 {
-    background-image: url(imagen4.jpg);
-}
-.Joyeria5 {
-    background-image: url(imagen5.jpg);
-}
-.Joyeria6 {
-    background-image: url(imagen6.jpg);
-}
-.Joyeria7 {
-    background-image: url(imagen7.jpg);
-}
-.Joyeria8 {
-    background-image: url(imagen8.jpg);
-}
-.Joyeria9 {
-    background-image: url(imagen9.jpg);
-}
-.Joyeria10 {
-    background-image: url(imagen10.png);
-}
-.Joyeria11 {
-    background-image: url(imagen11.png);
-}
-.Joyeria12 {
-    background-image: url(imagen12.png);
+span1 {
+    text-decoration: underline;
+    margin: 30px;
+    font-size: 70px;
 }
 
-
-.Joyeria1:hover, .Joyeria2:hover, .Joyeria3:hover, .Joyeria4:hover, .Joyeria5:hover
-, .Joyeria6:hover, .Joyeria7:hover, .Joyeria8:hover, .Joyeria9:hover, .Joyeria10:hover, .Joyeria11:hover, .Joyeria12:hover {
-    box-shadow: 3px 3px 3px rgb(90, 90, 90);
-    filter: blur(0px);
-    /*TENGO QUE INSERTAR CAMBIO DE FONDO ACÁ*/
+p {
+    background-color: rgba(24, 24, 24, 0.637);
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
 }
 
+input {
+    height: 30px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(151, 151, 151);
+    box-shadow: #cecece;
+    outline: none;
+}
+
+.ingresoMensaje {
+    height: 200px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(151, 151, 151);
+    box-shadow: #cecece;
+    outline: none;
+    resize: none;
+}
 
 footer {
     border-top: 1px solid rgb(65, 65, 65);

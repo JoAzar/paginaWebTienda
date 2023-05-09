@@ -76,7 +76,7 @@ body{
 }
 
 .cajaChica {
-    background-color: rgb(160, 22, 17);
+    background-color: rgba(216, 10, 10, 0.288);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -85,7 +85,6 @@ body{
     text-align: center;
     color: #b8b8b8;
     text-shadow: 1px 2px 3px rgb(0, 0, 0);
-    border: 1px solid rgb(29, 29, 29);
     font-family: 'Vollkorn', serif;
 }
 
@@ -199,6 +198,25 @@ footer {
     border-left: 2px solid rgb(223, 223, 223);
     right: -6px;
     animation: cursor .6s infinite,typing 20s steps(15) infinite;
+}
+
+button {
+    width: 50px;
+    margin: 30px;
+    scroll-behavior: smooth;
+    transition-duration: 0.9s;
+    margin-left: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(201, 201, 201);
+    background-image: url(arriba1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+button:hover {
+    background-image: url(arriba2.png);
 }
 
 @keyframes palabra{
