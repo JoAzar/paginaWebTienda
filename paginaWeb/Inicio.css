@@ -27,6 +27,11 @@ body{
     font-family: 'Vollkorn', serif;
 }
 
+.logo:hover {
+    color: #dfdfdfb2;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
+
 .menu {
     border-bottom: 2px solid goldenrod;
     display: flex;
@@ -37,19 +42,27 @@ body{
 }
 
 .opcionMenu {
-    padding: .5em;
+    margin: 3px;
+    padding: 20px 20px;
     text-transform: uppercase;
-    color: rgb(219, 219, 219);
-    text-decoration: none;
-    filter: blur(2px);
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #e7e7e7d3;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #beb63cb9;
+    transition: 0.5s ease;
+    user-select: none;
 }
 
-.opcionMenu:hover {
-    text-decoration: underline goldenrod;
-    background-color: rgb(80, 80, 80);
-    text-shadow: 3px 3px 3px rgb(148, 148, 148);
-    text-shadow: 2px 2px 2px rgb(158, 158, 158);
-    filter: blur(0px);
+.opcionMenu:hover, .opcionMenu:focus {
+    color: #999999;
+    background: #f1f1f1ce;
+    border: 1px solid #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ffed8d, 0 0 20px #ffed8d, 0 0 50px #ffed8d, 0 0 100px #ffed8d;
 }
 
 .enlace:link, .enlace:visited, .enlace:active {
